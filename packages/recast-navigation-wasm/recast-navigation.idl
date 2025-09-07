@@ -656,6 +656,7 @@ interface dtCrowdAgent {
 
     attribute boolean active;
     attribute octet state;
+    attribute boolean preOffMesh;
     [Value] readonly attribute dtPathCorridor corridor;
     [Value] readonly attribute dtLocalBoundary boundary;
     attribute float topologyOptTime;
